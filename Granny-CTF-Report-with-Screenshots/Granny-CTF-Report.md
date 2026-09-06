@@ -173,13 +173,6 @@ The final shell session reached the user profile directories under `C:\Documents
 | User flag | `C:\Documents and Settings\Lakis\Desktop\user.txt` | Contents displayed |
 | Administrator/root flag | `C:\Documents and Settings\Administrator\Desktop\root.txt` | Contents displayed |
 
-The following values are transcribed from S15:
-
-| Flag | Value |
-| --- | --- |
-| User | `700c5dc163014e22b3e408f8703f67d1` |
-| Root | `aa4beed1c0584445ab463a6747bd06e9` |
-
 Each file was listed as 32 bytes. The Hack The Box completion message and root-flag completion state visible behind the terminal provide additional support for the recorded result.
 
 Both flags are shown being retrieved after the second session opened. The screenshots do not establish whether the user flag was accessible before escalation. “Root” is the challenge's label for the administrator objective on this Windows machine.
